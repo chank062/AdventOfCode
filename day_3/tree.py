@@ -23,5 +23,9 @@ for row in range(1000): # for 1000 rows
         if fabric[row][col] >= 2: #
             overlap +=1 # add one to overlap counter
         # if fabric[row][col] == 0:
+        # else:
+        #     answer = id_variable
+        # answer = line[:change_pos] + line[change_pos+1:]
+
 
 print("part 1: " + str(overlap)) # 116140
